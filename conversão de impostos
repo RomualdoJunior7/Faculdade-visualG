@@ -1,0 +1,10 @@
+Var
+      imposto : real
+      valor : real
+Inicio
+          escreval("qual o valor do produto: US$ ")
+          leia(valor)
+          imposto <- (valor*60)/100
+          escreval("o imposto é: US$ ", imposto:5:2)
+                
+Fimalgoritmo
