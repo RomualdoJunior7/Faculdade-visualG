@@ -1,0 +1,10 @@
+Var
+      F, C :real
+Inicio
+                escreval("informe qual temperatura que você vê aonde você está")
+                leia(F)
+                C <- (F-32) /1.8
+                escreval("no Brasil, estaria exatamente com:", C)
+
+                
+Fimalgoritmo
