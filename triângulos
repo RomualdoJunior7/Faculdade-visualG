@@ -1,0 +1,18 @@
+algoritmo "Triangulos"
+var
+L1, L2, L3 : REAL
+EQ,ES : logico
+inicio
+
+escreval("informe L1: ")
+leia (L1)
+escreval("informe L2: ")
+leia (L2)
+escreval("informe L3: ")
+leia (L3)
+EQ<- (L1 = L2) e (L2 = L3)
+ES<- (L1<>L2) e (L2 <>L3) e (L1<>L3)
+Escreval ("o trinagulo é EQUILATERO? ", EQ)
+escreval ("o tinagualo é ESCALENO? ", ES)
+
+fimalgoritmo
