@@ -1,0 +1,12 @@
+Var
+valor : inteiro
+reais, dolares : real
+Inicio
+escreval("bem vindo(a)!")
+escreval("creuza vai viajar, mas precisa comprar dolares")
+escreval ("1 dolar está custando 5.27 reais")
+leia(dolares)
+escreval("Quantos reais creuza possui para cambio?: ")
+leia(reais)
+dolares <-reais/5.27
+escreval (" quantos dolares creuza terá:", dolares)
