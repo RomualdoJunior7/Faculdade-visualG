@@ -1,0 +1,12 @@
+Var
+ano_atual : inteiro
+ano_nascimento : inteiro
+idade : inteiro
+Inicio
+escreval("olá, seja bem vindo(a)!")
+escreval("em que ano nós estamos? : ")
+leia(ano_atual)
+escreval("em que ano eu nasci? : ")
+leia( ano_nascimento)
+idade <- ano_atual - ano_nascimento
+escreval("minha idade será: ", idade)
