@@ -1,0 +1,17 @@
+Var
+ano, idade, nasc : inteiro
+Inicio
+
+         escreval("Informe em qual ano estamos?: ")
+         leia (ano)
+         escreval(" Informe em qual ano você nasceu?: ")
+         leia (nasc)
+         idade<- ano-nasc
+         escreval("em", ano,  "você terá:",idade)
+         se (idade >= 26) entao
+         escreval ("você já terá atingido a maior idade")
+         senao
+         escreval("você não terá atingido a maior idade")
+                fimse
+
+Fimalgoritmo
