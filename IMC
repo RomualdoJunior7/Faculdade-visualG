@@ -1,0 +1,14 @@
+Var
+peso, altura, imc: real
+Inicio
+      escreval("informe seu peso:")
+      leia(peso)
+      escreval("informe sua altura")
+      leia (altura)
+      imc <- peso / (altura ^ 2)
+      escreval("imc:", imc:5:2)
+      se (imc >=18.5) e (imc <=25) entao
+      escreval("você está no peso ideal")
+      senao
+      escreval("você está acima do peso")
+      fimse
