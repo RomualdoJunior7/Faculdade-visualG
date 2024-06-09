@@ -1,0 +1,21 @@
+Var
+NOTA1, NOTA2, MEDIA : REAL
+Inicio
+      escreval("____________________________________")
+      escreval("ESCOLA ROMUALDO APRENDE")
+      escreval("____________________________________")
+       escreval("informe sua primeira nota:")
+       leia (NOTA1)
+       escreval("informe sua segunda nota:")
+       leia (NOTA2)
+      escreval("____________________________________")
+       MEDIA<- (NOTA1 + NOTA2) /2
+      escreval("____________________________________")
+       escreval("media:", MEDIA)
+       escreval("____________________________________")
+       se MEDIA <= 7 entao
+       escreval("Aluno Reprovado")
+       senao
+       escreval("Aluno Aprovado")
+       fimse
+Fimalgoritmo
