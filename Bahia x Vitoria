@@ -1,0 +1,30 @@
+Var
+T1 :INTEIRO
+T2  : INTEIRO
+diferenca : inteiro
+
+
+Inicio
+escreval("--------------------------------------------------------")
+        escreval( "           BAHIA X VITORIA              ")
+ escreval("--------------------------------------------------------")
+ escreval("quantos gols o bahia marcou:?")
+ leia (T1)
+ escreval("quantos gols o vitoria marcou:?")
+ leia(T2)
+ escreval("--------------------------------------------------------")
+ diferenca <- T1-T2
+ escreval("diferenca:", diferenca)
+ se (diferenca = 0) entao
+ escreval ( "STATUS: EMPATE")
+ senao
+ se (diferenca >= 1) e (diferenca <4) entao
+ escreval("STATUS: NORMAL")
+ senao
+ escreval("STATUS: GOLEADA")
+ fimse
+ fimse
+escreval("--------------------------------------------------------")
+
+
+Fimalgoritmo
