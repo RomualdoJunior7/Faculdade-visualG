@@ -1,0 +1,12 @@
+Var
+reais: real
+Inicio
+           escreval("informe quanto reais você possui:")
+           leia (reais)
+                 se (reais <=15.000) entao
+                 escreval("você não poderá viajar,#chateado")
+                 senao
+                 escreval("você poderá viajar, #partiu disney")
+                 fimse
+
+Fimalgoritmo
