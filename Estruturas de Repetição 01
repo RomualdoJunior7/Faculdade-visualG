@@ -1,0 +1,12 @@
+Var
+    contador : inteiro
+Inicio
+  contador <- 0
+  enquanto (contador <= 1000) faca
+  escreval (contador)
+             contador <- contador + 100
+
+  fimenquanto
+             escreval("Terminei de contar")
+
+Fimalgoritmo
